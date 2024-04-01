@@ -40,7 +40,7 @@ func main() {
 
 		if userTickets > int(remainingTickets) {
 			fmt.Printf("We only have %[1]v tickets left, please book no more than %[1]v tickets.\n", remainingTickets)
-			break
+			continue
 		}
 
 		// Add the full name to the bookings slice
